@@ -51,7 +51,7 @@ Make script executable (chmod x+ /usr/local/bin/opencanary.sh)
 test script ( ./usr/local/bin/opencanary.sh)
 it should be running now if not stop and troubleshoot that
 Make it run on boot with crontab -e
-@reboot /usr/loca/bin/opencanary.sh (save and exit)
+@reboot /usr/local/bin/opencanary.sh (save and exit)
 Reboot and it should be running.
 
 NOW I am sure that running this as root is not ideal but i could not get it to work any other way for me
