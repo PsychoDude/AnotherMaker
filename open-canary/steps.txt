@@ -42,12 +42,12 @@ https://www.youtube.com/watch?v=RanpEQBvAY0 to let us know how you got it to wor
 Note #2:  For running automatically on boot. Courtesy of Matthew Bowels in the YT comments
 sudo -i (this will run all commands as root, you NEED to do everything as root)
 run the install instructions (as root) all the way up to the --copyconfig
-make a script to run it (nano /usr/loca/bin/opencanary.sh)
+make a script to run it (nano /usr/local/bin/opencanary.sh)
 Script should be
              #!/bin/bash
              ./usr/local/bin/opencanary.sh
              (exit the editor while saving)
-Make script executable (chmod x+ /usr/local/bin/opencanary.sh)
+Make script executable (chmod +x /usr/local/bin/opencanary.sh)
 test script ( ./usr/local/bin/opencanary.sh)
 it should be running now if not stop and troubleshoot that
 Make it run on boot with crontab -e
